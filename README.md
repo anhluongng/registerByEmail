@@ -41,22 +41,25 @@ spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 ```
 ## Usage
-### Run project and use postman with `/register`:
+* **Run project and use postman with `/register`:**
 
 ![image](https://github.com/anhluongng/registerByEmail/assets/96836771/b053dbca-5b74-405e-87aa-acf47d3fd2d9)
 
-### Token will be sent via gmail for authentication:
+
+* **Token will be sent via gmail for authentication:**
 
 ![image](https://github.com/anhluongng/registerByEmail/assets/96836771/1a9b6890-8199-414a-a388-07bdbed4e2f8)
 
 
-### Authenticate with link or `/confirm-account` with value of token
+* **Authenticate with link or `/confirm-account` with value of token**
 
 ![image](https://github.com/anhluongng/registerByEmail/assets/96836771/5c361576-605e-446c-a9dd-2b817741ebd3)
 
 
 Now the account has been activated.
 
+
+> [How to send Email via SMTP in SpringBoot](https://www.geeksforgeeks.org/spring-boot-sending-email-via-smtp/)
 
 
 
